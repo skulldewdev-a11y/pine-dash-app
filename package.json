@@ -1,18 +1,18 @@
 {
   "name": "pine-dash-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pine Dash OBD2 Dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'No build needed'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@capacitor/android": "^7.4.4",
-    "@capacitor/cli": "^7.4.4",
-    "@capacitor/core": "^7.4.4",
+    "@capacitor/android": "^5.7.0",
+    "@capacitor/core": "^5.7.0",
     "capacitor-bluetooth-serial": "^0.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.7.0",
+    "typescript": "^5.0.0"
   }
 }
