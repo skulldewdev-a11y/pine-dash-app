@@ -24,7 +24,11 @@ jobs:
     - name: Install dependencies
       run: npm install && npm install -D typescript
       
-    - run: npx cap sync android
+    - name: Add Android platform
+      run: npx cap add android
+      
+    - name: Sync Capacitor
+      run: npx cap sync android
       
     - run: chmod +x android/gradlew
       
